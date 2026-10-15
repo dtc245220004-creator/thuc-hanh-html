@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Newsletter Trello mẫu với bảng màu ấm áp.">
+<title>Trello Weekly — Warm Edition</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root{--primary:#b9472f;--secondary:#542f2a;--accent:#f2b84b;--bg:#fff7ef;--text:#3d302d;--muted:#78645d}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+.newsletter{max-width:900px;margin:36px auto;background:#fffefc;border-radius:22px;overflow:hidden;box-shadow:0 18px 55px #542f2a20}
+header{padding:24px clamp(20px,5vw,54px);display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #f0e1d7}
+.brand{font-size:1.3rem;font-weight:800;color:var(--secondary)}.mark{display:inline-grid;place-items:center;background:var(--primary);color:white;border-radius:9px;width:32px;height:32px;margin-right:8px}
+.issue{font-size:.75rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+.hero{padding:clamp(36px,7vw,70px) clamp(22px,5vw,56px);color:white;background:linear-gradient(125deg,#542f2a,#9a3e2d);position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;width:230px;height:230px;border:40px solid #f2b84b33;border-radius:50%;right:-50px;top:-80px}
+.eyebrow{color:#f7cb72;font-weight:800;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.2rem,5vw,3.7rem);font-weight:850;line-height:1.08;letter-spacing:-1.5px;max-width:650px;margin:18px 0}
+.hero p{max-width:570px;color:#f7e5db;line-height:1.8}.cta{display:inline-block;background:var(--accent);color:#492a21;border-radius:30px;padding:13px 22px;text-decoration:none;font-weight:800;margin-top:10px;transition:.2s}.cta:hover{background:#ffd783;transform:translateY(-2px);color:#492a21}
+.content{padding:clamp(26px,5vw,54px)}.label{color:var(--primary);font-weight:800;text-transform:uppercase;font-size:.75rem;letter-spacing:1.5px}
+h2{color:var(--secondary);font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;letter-spacing:-.7px}.muted{color:var(--muted);line-height:1.8}
+.feature{height:100%;padding:25px;border:1px solid #f0e1d7;border-radius:17px;background:#fffaf5;transition:.2s}.feature:hover{transform:translateY(-4px);box-shadow:0 12px 28px #542f2a17}.emoji{width:46px;height:46px;display:grid;place-items:center;border-radius:14px;background:#fce8c5;font-size:1.3rem;margin-bottom:18px}.feature h3{color:var(--secondary);font-size:1.1rem;font-weight:800}
+.tip{margin-top:26px;padding:23px;border-radius:15px;background:#fff0d6;border-left:4px solid var(--primary)}footer{background:var(--secondary);color:#f7e5db;text-align:center;padding:28px}footer a{color:#f7cb72}
+@media(max-width:575px){.newsletter{margin:10px;border-radius:15px}.issue{display:none}}
+</style>
+</head>
+<body>
+<main class="newsletter">
+<header><div class="brand"><span class="mark">T</span>trello weekly</div><span class="issue">Bản tin sáng tạo · Số 08</span></header>
+<section class="hero"><div class="eyebrow">Một tuần đầy cảm hứng</div><h1>Ý tưởng hay xứng đáng được biến thành hiện thực.</h1><p>Hãy tạo không gian cho sự sáng tạo, kết nối mọi người và biến những kế hoạch còn dang dở thành kết quả đáng tự hào.</p><a class="cta" href="#features">Khơi nguồn ý tưởng →</a></section>
+<section class="content">
+<div class="label mb-2">Góc sáng tạo tuần này</div><h2 class="mb-3">Chào bạn, hãy bắt đầu bằng một bước nhỏ.</h2><p class="muted">Một kế hoạch tốt không cần phức tạp. Khi công việc được chia sẻ rõ ràng, mọi người dễ dàng đóng góp ý tưởng, theo dõi tiến độ và cùng nhau ăn mừng những thành quả nhỏ.</p>
+<div id="features" class="row g-3 mt-3">
+<div class="col-md-6"><article class="feature"><div class="emoji">🎨</div><h3>Không gian cho ý tưởng</h3><p class="muted mb-0">Ghi lại những ý tưởng bất chợt và biến chúng thành các bước hành động cụ thể mà bạn có thể bắt đầu ngay.</p></article></div>
+<div class="col-md-6"><article class="feature"><div class="emoji">🤝</div><h3>Cùng nhau tạo kết quả</h3><p class="muted mb-0">Chia sẻ trách nhiệm, trao đổi phản hồi và giữ cho mọi thành viên luôn nắm được tiến độ chung.</p></article></div>
+</div>
+<aside class="tip"><strong>☀️ Thử ngay hôm nay</strong><p class="muted mt-2 mb-0">Tạo danh sách “Việc cần làm trong tuần”, chọn một nhiệm vụ dễ hoàn thành và dành 15 phút để bắt đầu.</p></aside>
+<div class="text-center mt-4"><a class="cta" href="https://trello.com/" target="_blank" rel="noopener noreferrer">Khám phá Trello ↗</a></div>
+<p class="text-center mt-4 mb-0"><a href="index.html">← Xem phiên bản 1 — Ocean Edition</a></p>
+</section>
+<footer><p class="mb-2">Mỗi ý tưởng là khởi đầu của một điều tuyệt vời.</p><small>© 2026 Trello Weekly · <a href="#">Hủy đăng ký</a></small></footer>
+</main>
+</body>
+</html>
